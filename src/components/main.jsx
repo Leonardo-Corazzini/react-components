@@ -1,6 +1,12 @@
+import Card from "./card/card"
 function Main() {
     return <main>
-        <div>Ciao</div>
+        <div className="container">
+            <div className="row">
+                <Card />
+            </div>
+
+        </div>
     </main>
 }
 
