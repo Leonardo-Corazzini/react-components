@@ -3,7 +3,10 @@ function Main() {
     return <main>
         <div className="container">
             <div className="row">
-                <Card />
+                <div className="col-4">
+                    <Card />
+                </div>
+
             </div>
 
         </div>
