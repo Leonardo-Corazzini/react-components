@@ -2,7 +2,6 @@
     border-radius: 10px;
     background-color: white;
     margin: 70px 0px;
-    padding-top: 2px;
     box-shadow: 1px 1px 7px 3px rgb(158, 157, 157);
 }
 
@@ -15,7 +14,8 @@
     object-fit: cover;
     object-position: top;
     aspect-ratio: 3/2;
-    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .title {
